@@ -1,0 +1,36 @@
+<resources>
+    // Common Labels
+    <string name="app_name">WINIT</string>
+
+    <string name="signIn">SIGN IN</string>
+
+    <string name="createProfile">CREATE PROFILE</string>
+
+    <string name="help">HELP</string>
+
+    <string name="passwordChangeHeader">PASSWORD CHANGE</string>
+
+    // Dropdown Lists
+    <string name="forgotPassword">FORGOT PASSWORD?</string>
+    <string-array name="questions">
+        <item>What is your favorite food?</item>
+        <item>What is your favorite sport?</item>
+        <item>What is your favorite color?</item>
+        <item>What do you think would be the best answer?</item>
+    </string-array>
+
+    <string name="secretAnswer"></string>
+    <string-array name="allergies">
+        <item>Potato</item>
+        <item>Apple</item>
+        <item>Mushroom</item>
+        <item>Chocolate</item>
+    </string-array>
+
+    <string-array name="healthProblems">
+        <item>Diabetes</item>
+        <item>Diabetes v2</item>
+        <item>Aspargas</item>
+        <item>Alzheimer</item>
+    </string-array>
+</resources>

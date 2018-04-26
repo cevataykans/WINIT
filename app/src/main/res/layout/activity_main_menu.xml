@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.winit.MainMenu">
+
+    <ImageView
+        android:id="@+id/textBubble"
+        android:layout_width="381dp"
+        android:layout_height="89dp"
+        android:layout_alignLeft="@+id/myProducts"
+        android:layout_alignStart="@+id/myProducts"
+        android:layout_below="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/advisorPhoto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/textbubble" />
+
+    <ImageView
+        android:id="@+id/advisorPhoto"
+        android:layout_width="94dp"
+        android:layout_height="92dp"
+        android:layout_alignBottom="@+id/textBubble"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        app:layout_constraintBottom_toBottomOf="@+id/textBubble"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="231dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="64dp"
+        android:text="We advise you to immediately"
+        app:layout_constraintBottom_toTopOf="@+id/iSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scan the products."
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageButton
+        android:id="@+id/scanProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBubble"
+        android:layout_marginTop="81dp"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:background="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advisorPhoto"
+        app:srcCompat="@drawable/scan" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textBubble"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/advisorPhoto"
+        android:layout_toRightOf="@+id/advisorPhoto"
+        android:text="Welcome Username!"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15" />
+
+    <ImageButton
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/settings"
+        android:layout_alignLeft="@+id/advisorPhoto"
+        android:layout_alignStart="@+id/advisorPhoto"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/settings"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editProfile"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/signOut"
+        app:layout_constraintStart_toEndOf="@+id/editProfile"
+        app:srcCompat="@drawable/setting" />
+
+    <ImageButton
+        android:id="@+id/editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/iSearch"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/iSearch"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/settings"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProducts"
+        app:srcCompat="@drawable/profile" />
+
+
+    <ImageButton
+        android:id="@+id/myProducts"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="317dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/editProfile"
+        app:layout_constraintEnd_toStartOf="@+id/iSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myproducts" />
+
+    <ImageButton
+        android:id="@+id/iSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/myProducts"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/scanProduct"
+        android:layout_toRightOf="@+id/scanProduct"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/myProducts"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/ingredientsearch" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/helpMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="WINIT helps you decide if you must consume the product or not. Just create a profile / sign in. After that, you will be directed to the main menu. From here, you can either scan the product you have and determine its harmfulness or you can search a product you saved or search an ingredient in our database. Harmfulness measurements are determined by World Health Organization (WHO)."
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</android.support.constraint.ConstraintLayout>

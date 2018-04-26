@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "763857615920",
+    "firebase_url": "https://winit-18425.firebaseio.com",
+    "project_id": "winit-18425",
+    "storage_bucket": "winit-18425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763857615920:android:96f456702f44451e",
+        "android_client_info": {
+          "package_name": "com.example.user.winit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763857615920-i7scg3a84lk5qbe409imsbg2d8u5r5eb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.winit",
+            "certificate_hash": "454fb692d91d39129d28e03c3937874102c5fc5d"
+          }
+        },
+        {
+          "client_id": "763857615920-sdgruqcusn7919e870nitg59oj4phs49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUUCg4Oj4ZZUMIU76U506iRSiSAxxyh1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763857615920-sdgruqcusn7919e870nitg59oj4phs49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
